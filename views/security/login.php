@@ -47,7 +47,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <?= $form->field($model, 'rememberMe')->checkbox(['tabindex' => '4']) ?>
 
-                <?= Html::submitButton(Yii::t('user', 'Sign in'), ['class' => 'btn-yello btn-block', 'tabindex' => '3']) ?>
+                <?= Html::submitButton(Yii::t('user', 'Sign in'), ['class' => 'btn-yellow btn-block', 'tabindex' => '3']) ?>
 
                 <?php ActiveForm::end(); ?>
             </div>
